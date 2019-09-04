@@ -1,0 +1,50 @@
+h1{
+	text-align: center;
+	color:orange;
+	font-style:oblique;
+	font-size:56px;
+}
+
+span{ 
+	color: red;
+	font-style:oblique;
+
+}
+
+.im1{
+  display: block;
+  margin: 0 auto;
+}
+
+#id1{ 
+	color: green;
+	font-style:italic;
+
+}
+
+
+ul{
+	color: orange;
+	font-style:italic;
+
+}
+
+div .cl2{
+	color:green;
+	border: 1px solid red;
+	border-radius: 5px
+
+
+}
+
+table{
+	border: dotted;
+	background: red;
+
+}
+a{
+	color: blue;
+	font-style: italic;
+}
+
+
