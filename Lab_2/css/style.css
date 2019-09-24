@@ -1,0 +1,220 @@
+
+.house_relative{
+	position: relative;
+
+}
+
+.wall_relative{
+	
+	position: relative;
+    height: 400px;
+    width: 500px;
+    border: 3px solid #000;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdnOu7oypHmJeLY9U-wS1-6ZPHGVIoS4vuUAh8ogXeR7r6P5vReQ);
+    margin: 0 20px;
+}
+
+.roof_relative{
+	position: relative;
+    height: 0;
+    width: 240px;
+    border-bottom: 200px solid #492A07;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    margin: 0 5px;
+}
+
+.first_window_relative{
+	position: relative;
+	width: 120px;
+	height: 150px;
+	border: 2px solid #2a167d;
+	background: url(http://map.3dmodelfree.com/imguploads/Image/08new/06/map/9/11/1.jpg);
+	background-size: 120px 150px;
+	margin: 60px 0 20px 20px;}
+
+
+.second_window_relative{
+	position: relative;
+	width: 120px;
+	height: 150px;
+	border: 2px solid #2a167d;
+	background: url(http://map.3dmodelfree.com/imguploads/Image/08new/06/map/9/11/1.jpg);
+	background-size: 120px 150px;
+	margin: -175px 0 0 350px;
+}
+.door_relative{
+	position: relative;
+	width: 110px;
+	height: 220px;
+	border: 2px solid #000;
+	background: url(https://d10frqznkjv786.cloudfront.net/2014/04/30/373340/83489/door_texture_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_963794_o.jpg);
+	background-size: 110px 220px;
+	margin: -35px 0 0 180px;
+}
+
+
+.house_absolute{
+	position:absolute;
+}
+
+.wall_absolute{
+	position: absolute;
+	height: 400px;
+    width: 500px;
+    border: 3px solid #000;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdnOu7oypHmJeLY9U-wS1-6ZPHGVIoS4vuUAh8ogXeR7r6P5vReQ);
+    margin: 350px 20px;
+    
+}
+
+.roof_absolute{
+	position: absolute;
+    height: 0;
+    width: 240px;
+    border-bottom: 200px solid #492A07;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    margin: 150px 0 0 0 ;
+}
+
+.first_window_absolute{
+	position: absolute;
+	width: 120px;
+	height: 150px;
+	border: 2px solid #2a167d;
+	background: url(http://map.3dmodelfree.com/imguploads/Image/08new/06/map/9/11/1.jpg);
+	background-size: 120px 150px;
+	margin: 60px 0 20px 20px;
+}
+
+.second_window_absolute{
+	position: absolute;
+	width: 120px;
+	height: 150px;
+	border: 2px solid #2a167d;
+	background: url(http://map.3dmodelfree.com/imguploads/Image/08new/06/map/9/11/1.jpg);
+	background-size: 120px 150px;
+	margin: 60px 0 0 350px;
+}
+.door_absolute{
+	position: absolute;
+	width: 110px;
+	height: 220px;
+	border: 2px solid #000;
+	background: url(https://d10frqznkjv786.cloudfront.net/2014/04/30/373340/83489/door_texture_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_963794_o.jpg);
+	background-size: 110px 220px;
+	margin: 180px 0 0 180px;
+}
+
+
+
+.house_fixed{
+	position: relative;
+
+}
+.roof_fixed{
+    position: fixed;
+    height: 0;
+    width: 240px;
+    border-bottom: 200px solid #492A07;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    margin: 50px 0 0 890px;
+
+}
+.wall_fixed{
+	position: fixed;
+	height: 400px;
+    width: 500px;
+    border: 3px solid #000;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdnOu7oypHmJeLY9U-wS1-6ZPHGVIoS4vuUAh8ogXeR7r6P5vReQ);
+    margin: 250px 0 0 900px;
+}
+
+.first_window_fixed{
+	position: fixed;
+	width: 120px;
+	height: 150px;
+	border: 2px solid #2a167d;
+	background: url(http://map.3dmodelfree.com/imguploads/Image/08new/06/map/9/11/1.jpg);
+	background-size: 120px 150px;
+	margin: 60px 0 0 30px;
+}
+
+.second_window_fixed{
+	position: fixed;
+	width: 120px;
+	height: 150px;
+	border: 2px solid #2a167d;
+	background: url(http://map.3dmodelfree.com/imguploads/Image/08new/06/map/9/11/1.jpg);
+	background-size: 120px 150px;
+	margin: 60px 0 0 350px;
+}
+.door_fixed{
+	position: fixed;
+	width: 110px;
+	height: 220px;
+	border: 2px solid #000;
+	background: url(https://d10frqznkjv786.cloudfront.net/2014/04/30/373340/83489/door_texture_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_963794_o.jpg);
+	background-size: 110px 220px;
+	margin: 180px 0 0 180px;
+}
+
+
+.house_static{
+	position: static;
+
+}
+
+.wall_static{
+	
+	position: static;
+	height: 400px;
+    width: 500px;
+    border: 3px solid #000;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdnOu7oypHmJeLY9U-wS1-6ZPHGVIoS4vuUAh8ogXeR7r6P5vReQ);
+    margin: 0 20px;
+    }
+
+.roof_static{
+	position: static;
+    height: 0;
+    width: 240px;
+    border-bottom: 200px solid #492A07;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    margin: 890px 0 0 0;}
+
+.first_window_static{
+	position: static;
+	width: 120px;
+	height: 150px;
+	border: 2px solid #2a167d;
+	background: url(http://map.3dmodelfree.com/imguploads/Image/08new/06/map/9/11/1.jpg);
+	background-size: 120px 150px;
+	margin: 60px 0 20px 30px;
+}
+
+.second_window_static{
+	position: static;
+	width: 120px;
+	height: 150px;
+	border: 2px solid #2a167d;
+	background: url(http://map.3dmodelfree.com/imguploads/Image/08new/06/map/9/11/1.jpg);
+	background-size: 120px 150px;
+	margin: -170px 0 0 340px;
+}
+
+
+.door_static{
+	position: static;
+	width: 110px;
+	height: 220px;
+	border: 2px solid #000;
+	background: url(https://d10frqznkjv786.cloudfront.net/2014/04/30/373340/83489/door_texture_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_963794_o.jpg);
+	background-size: 110px 220px;
+	margin: -40px 0 0 180px;
+}
+
+
