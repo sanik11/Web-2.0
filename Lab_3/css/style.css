@@ -1,0 +1,58 @@
+.flex-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.flex-container__roof {
+	display: flex;
+    height: 0;
+    width: 240px;
+    border-bottom: 150px solid #492A07;
+    border-left: 130px solid transparent;
+    border-right: 130px solid transparent;
+}
+
+.flex-container__wall {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 300px;
+	width: 400px;
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdnOu7oypHmJeLY9U-wS1-6ZPHGVIoS4vuUAh8ogXeR7r6P5vReQ);
+
+	border: 2px solid #000;
+}
+
+
+.flex-container__wall__door{
+	display: flex;
+	height:140px;
+	width: 90px;
+	background: url(https://d10frqznkjv786.cloudfront.net/2014/04/30/373340/83489/door_texture_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_963794_o.jpg);
+	background-size: 90px 140px;
+}
+
+
+.flex-container__wall__window{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height:140px;
+	width: 400px;
+}
+
+.flex-container__wall__window__first{
+	width: 100px;
+	height: 100px;
+	background: url(http://map.3dmodelfree.com/imguploads/Image/08new/06/map/9/11/1.jpg);
+	background-size: 100px 100px;
+}
+
+.flex-container__wall__window__second{
+	width: 100px;
+	height: 100px;
+	background: url(http://map.3dmodelfree.com/imguploads/Image/08new/06/map/9/11/1.jpg);
+	background-size: 100px 100px;
+}
