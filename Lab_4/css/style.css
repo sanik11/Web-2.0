@@ -1,0 +1,43 @@
+.squares{
+	display: flex;
+	justify-content: space-between;
+}
+
+.squar{
+	width: 120px;
+    height: 120px;
+}
+.square-1{
+	background: red;
+}
+.square-2{
+
+    background: orange;
+}
+.square-3{
+    background: green;
+}
+@media screen and (max-width: 1000px){
+	.squares{
+		justify-content: flex-start;
+		
+	}
+
+}
+
+@media screen and (orientation:portrait) {
+	.squares{
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+    
+}
+
+@media screen and (orientation:landscape) and (max-width: 812px){ 
+	.squares{
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+}
