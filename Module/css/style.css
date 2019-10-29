@@ -1,0 +1,118 @@
+
+.figure1{
+	position: absolute;
+	top:0px;
+	left: 0px;
+	width: 10; 
+	height: 10;
+	border-top: 100px solid red;
+	border-right: 100px solid transparent;
+	color:red;
+
+	transform: translate(0px,0px);
+    animation: anim1 2s linear infinite;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+
+.figure2{
+	position: absolute;
+	top:0px;
+	left: 600px;
+	width: 10; 
+	height: 10;
+	border-top: 100px solid blue;
+	border-left: 100px solid transparent;
+
+	transform: translate(0px,0px);
+    animation: anim2 2s linear infinite;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+
+}
+.figure3{
+	position: absolute;
+	top:600px;
+	left: 0px;
+	width: 10; 
+	height: 10;
+	border-bottom: 100px solid green;
+	border-right: 100px solid transparent;
+
+	transform: translate(0px,0px);
+    animation: anim3 2s linear infinite;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+.figure4{
+	position: absolute;
+	top:600px;
+	left: 600px;
+	width: 10; 
+	height: 10;
+	border-bottom: 100px solid orange;
+	border-left: 100px solid transparent;
+
+	transform: translate(0px,0px);
+    animation: anim4 2s linear infinite;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+
+
+
+@keyframes anim1{
+	0% {
+		transform: translate(0px,0px) ;
+	}
+	50% {
+		transform: translate(125px, 125px);
+	}
+
+
+	
+
+	100% {
+		transform: translate(250px,250px) ;
+	}
+
+}
+@keyframes anim2{
+	0% {
+		transform: translate(0px,0px) ;
+	}
+	50% {
+		transform: translateY(-125px, 125px);
+	}
+
+	100% {
+		transform: translate(-250px,250px) ;
+	}
+
+}
+@keyframes anim3{
+	0% {
+		transform: translate(0px,0px) ;
+	}
+	50% {
+		transform: translateY(125px, -125px);
+	}
+
+	100% {
+		transform: translate(250px,-250px) ;
+	}
+
+}
+@keyframes anim4{
+	0% {
+		transform: translate(0px,0px) ;
+	}
+	50% {
+		transform: translateY(-125px, -125px);
+	}
+
+	100% {
+		transform: translate(-250px,-250px) ;
+	}
+
+}
