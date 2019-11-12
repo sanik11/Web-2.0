@@ -1,0 +1,329 @@
+  *{
+    margin: 0;
+    padding: 0;
+}
+.slider{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.slider section{
+    height: 100vh; 
+}
+
+.head{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/back.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.logotype{
+    width: 276px; height: 109px;
+    background: url('../img/css_sprites_logo.png') -10px -10px;
+    margin-left: 28px;
+    margin-bottom:40px ;
+
+
+}
+.head h2{
+    font-family: 'Catamaran-Medium', sans-serif;
+    text-align: center;
+    color: #333333;
+    letter-spacing: 0.3em;
+}
+
+.form {
+    width: 389px;
+    box-shadow: 0 6px 6px 1px rgba(44, 43, 45, 0.7);
+    background-color: #333333;
+    opacity: 0.9;
+  }
+ 
+  .form > input {
+    display: none;
+  }
+  .form > div {
+    display: none;
+  }
+  
+  .form > input:checked + label {
+    color: #ffffff;
+    background: #333333;
+    opacity: 1;
+    width: 74px;
+  }
+  
+  #block-1:checked ~ #inputs-1,
+  #block-2:checked ~ #inputs-2 {
+    display: flex;
+    flex-direction: column;
+  }
+   
+  .inp-1, .inp-2 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 356px;
+    padding: 14px;
+  }
+  .inp-2{
+    justify-content: space-evenly;
+  }
+  
+  .button {
+    padding: 11px 61px 11px 62.8px;
+    font-family: "Catamaran-Medium", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 1.8px;
+    border: 0px;
+    color: #333333;
+    background-color: #ffffff;
+    opacity: 0.7;
+    display: inline-flex;
+    cursor: pointer;
+    margin-bottom: 8px;
+  }
+  
+  .input {
+    background-color: #ffffff;
+    width: 345px;
+    height: 40px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    color: #333333;
+    font-family: "Catamaran", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 1.8px;
+  }
+  
+  .label_text {
+    display: block;
+    color: #ffffff;
+    font-family: "Catamaran-Lite", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1.6px;
+    height: 40px;
+    margin: 0 30px 8px 0;
+  }
+  
+  .reg_button {
+    background-color: #ff6600;
+    height: 40px;
+    width: 100%;
+    color: #333333;
+    font-family: "Catamaran-Black", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 3px;
+    border: 0px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+
+
+
+
+.main{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.text-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-main h2{
+    color:#00a8b2;
+    font-size: 30pt;
+    font-family: 'Catamaran-Black', sans-serif;
+    text-align: center;
+}
+
+
+.text-main p{
+    display: block;
+    font-size: 16pt;
+    width:68%;
+    margin-bottom: 40px;
+    font-family: 'Catamaran-Lite', sans-serif;}
+
+
+
+.all-elements{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.item__desc{
+    width:210px;
+    text-align: center;
+    font-family: 'Catamaran-Lite', sans-serif;
+    font-size: 16pt;
+
+
+}
+
+.items h3{
+    font-family: 'Catamaran-Black', sans-serif;
+    color:#00a8b2;
+    letter-spacing: 0.1em;
+}   
+
+.item-1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 77px; height: 77px;
+    background: url('../img/css_sprites.png') -10px -107px;
+}
+
+.item-2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 77px; height: 77px;
+    background: url('../img/css_sprites.png') -10px -10px;
+}
+
+.item-3{
+    margin-left: auto;
+    margin-right: auto;
+    width: 77px; height: 77px;
+    background: url('../img/css_sprites.png') -107px -107px;
+}
+.item-4{
+    margin-left: auto;
+    margin-right: auto;
+    width: 77px; height: 77px;
+    background: url('../img/css_sprites.png') -107px -10px;
+}
+
+
+
+
+.line__menu{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color:#333333;
+}
+
+.logotype-2{
+
+    width: 160px; height: 64px;
+    background: url('../img/css_sprites_logo.png') -10px -139px;
+    margin-left: 40px;
+}
+.contacts_section{
+    margin-right: 40px;
+}
+.contact {
+    width: 242px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 1.6px;
+    position: relative;
+  }
+  
+  .pol:before,
+  .pol:after {
+    content: url(../img/line.png);
+    position: absolute;
+    left: 0px;
+    top: -3px;
+  }
+  
+  .pol:after {
+    left: 190px;
+  }
+  
+  .mail{
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+/* 400 */
+  @font-face { 
+    font-family: "Catamaran";
+    src: url("../fonts/Catamaran-Regular.ttf");
+  }
+/* 500 */
+  @font-face {
+    font-family: "Catamaran-Medium";
+    src: url("../fonts/Catamaran-Medium.ttf");
+  }
+/* 900 */
+  @font-face {
+    font-family: "Catamaran-Black";
+    src: url("../fonts/Catamaran-Black.ttf");
+  }
+/* 300 */
+  @font-face {
+    font-family: "Catamaran-Lite";
+    src: url("../fonts/Catamaran-Light.ttf");
+  }
+
+  @media screen and (max-width: 380px){
+	.head{
+        flex-direction: column;
+        justify-content:space-between;
+        width: 375px;
+    }
+    .logotype{
+        margin: auto;
+        
+    }
+    .main{
+        justify-content:space-between; 
+    }
+    .text-main p{
+        margin-bottom: 0px;
+        text-align: center;
+        
+    }
+
+    .all-elements{
+        width: 375px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-left: 30px;
+    }
+
+    .item__desc{
+        width: 170px;
+        font-size: 9pt;
+    }
+
+    .line__menu{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .logotype-2{
+        margin-left: 0;
+        
+    }
+    .contacts_section{
+        margin-right: 0;
+    }
+}
