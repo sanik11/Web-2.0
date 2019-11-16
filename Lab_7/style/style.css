@@ -1,0 +1,667 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logotyp {
+  font-family: "MyriadProRegular";
+  display: block;
+  padding: 30px 0 30px 50px;
+  color: #d7794a;
+  text-transform: uppercase;
+  font-size: 16pt;
+}
+
+.menu {
+  width: 100%;
+  height: 365px;
+  background-image: url(../img/main.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.menu__items {
+  display: flex;
+  justify-content: flex-start;
+  background: rgba(71, 74, 81, 0.5);
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.home {
+  margin-left: 30px;
+}
+
+.menu__item {
+  padding: 15px 15px;
+  display: inline-block;
+  height: 100%;
+}
+.menu__item:hover {
+  background-color: #a95e39;
+}
+
+.menu__items a {
+  font-family: "MyriadProRegular";
+  font-size: 10pt;
+  text-decoration: none;
+  color: white;
+}
+
+.text-welcome {
+  margin-top: 180px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+.text-welcome h1 {
+  margin-right: 100px;
+  font-family: "Athelas-Regular";
+  color: white;
+}
+.text-welcome h2 {
+  margin-right: 70px;
+  margin-top: 20px;
+  font-family: "Athelas-Regular";
+  color: #a95e39;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+}
+.content > h2 {
+  font-family: "Athelas-Regular";
+  margin-top: 75px;
+  text-align: center;
+  font-size: 30pt;
+  color: #a95e39;
+  text-transform: uppercase;
+}
+.content > h3 {
+  font-family: "Athelas-Regular";
+  text-align: center;
+  color: #a95e39;
+  margin-bottom: 50px;
+}
+
+.team__description {
+  font-family: "Helvetica";
+  margin-left: auto;
+  margin-right: auto;
+  width: 950px;
+  text-align: justify;
+  font-size: 14pt;
+}
+
+.team__items-block {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 55px;
+}
+
+.team__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.item__img {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.item__img img {
+  width: 213px;
+  height: 267px;
+}
+
+.team__item h3 {
+  font-family: "Helvetica";
+  text-align: center;
+  margin-top: 15px;
+}
+
+.item__desc {
+  font-family: "Helvetica";
+  justify-content: space-around;
+  padding-top: 30px;
+  text-align: center;
+  height: 128px;
+  width: 260px;
+  font-size: 14px;
+}
+
+.statistics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  background: #1b2c33;
+}
+
+.elements {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.elements h2 {
+  font-family: "VaniBold";
+  font-size: 37pt;
+  text-align: center;
+  color: #a95e39;
+}
+.elements h3 {
+  font-family: "MyriadProRegular";
+  color: white;
+  text-transform: uppercase;
+  font-size: 12pt;
+}
+
+.foother-menu__item i {
+  padding-right: 5px;
+}
+
+.line__menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  height: 130px;
+  padding-top: 10px;
+  background: #1b2c33;
+  bottom: 0;
+  width: 100%;
+}
+
+.foother-menu__item {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+.foother-menu__item a {
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+}
+.foother-menu__item a:hover {
+  color: #a95e39;
+}
+.foother-menu__item p {
+  text-transform: uppercase;
+}
+
+.line__copyright {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0;
+  height: 59px;
+  background: black;
+}
+
+.copyright__social {
+  display: flex;
+  justify-content: flex-end;
+  right: 0;
+}
+
+.copyright__text {
+  text-align: center;
+  font-size: 16px;
+  padding: 20px 50px;
+  color: white;
+}
+
+.copyright__social {
+  width: 100px;
+}
+.copyright__social img {
+  padding: 10px 10px;
+  height: 35px;
+  width: 35px;
+}
+
+/* form */
+.regist-form {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1b2c33;
+}
+
+.form-text h2 {
+  font-family: "Athelas-Regular";
+  font-size: 32pt;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.form-text > div {
+  width: 600px;
+  font-family: "QuattrocentoSans-Regular";
+  font-size: 16pt;
+  text-align: center;
+  color: white;
+}
+
+.form {
+  width: 1000px;
+  height: 550px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.form > input {
+  font-family: "QuattrocentoSans-Regular";
+  width: 400px;
+  height: 50px;
+  outline: none;
+  border-color: grey;
+  border: 0;
+  border-bottom: 1px solid grey;
+  background: transparent;
+  color: grey;
+  font-size: 16pt;
+}
+.form > select {
+  width: 400px;
+  height: 50px;
+  outline: none;
+  border-color: grey;
+  border: 0;
+  border-bottom: 1px solid grey;
+  background: transparent;
+  color: grey;
+  font-size: 16pt;
+}
+
+#email {
+  width: 900px;
+}
+
+.form > textarea {
+  width: 900px;
+  height: 200px;
+  outline: none;
+  border-color: grey;
+  border: 0;
+  border-bottom: 1px solid grey;
+  background: transparent;
+  color: grey;
+  font-size: 16pt;
+}
+
+.regist-form > button {
+  font-family: "MyriadProRegular";
+  width: 240px;
+  height: 70px;
+  background-color: #89553b;
+  border-color: #623621;
+  font-size: 16pt;
+  color: white;
+  margin-left: 650px;
+  margin-bottom: 100px;
+}
+
+/* about-us */
+.about-us {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.photo {
+  width: 720px;
+  height: 350px;
+  background-image: url(../img/aboutus.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.about {
+  width: 680px;
+  height: 310px;
+  background-color: #f9f9fb;
+  border: 1px solid #b2b1b1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text-about h2 {
+  font-family: "Athelas-Regular";
+  text-transform: uppercase;
+  font-size: 23pt;
+  text-align: center;
+}
+.text-about > div {
+  width: 400px;
+  font-family: "QuattrocentoSans-Regular";
+  font-size: 10pt;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.elements-about {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.element {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.elements-about img {
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+}
+.elements-about h3 {
+  font-family: "MyriadProRegular";
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border: 1px solid;
+}
+
+.line {
+  width: 1px;
+  background-color: black;
+  height: 20px;
+  margin-top: -4px;
+}
+
+/* gallery */
+.our-gallery {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.gallery-text h2 {
+  font-family: "Athelas-Regular";
+  text-transform: uppercase;
+  font-size: 35pt;
+  text-align: center;
+  color: #a95e39;
+}
+.gallery-text > div {
+  width: 80%;
+  font-size: 20pt;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* animation */
+.gallery {
+  max-width: 1450px;
+  margin: 20px auto;
+}
+.gallery img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.color_bac {
+  background-color: #dad4d4;
+}
+
+.white-line {
+  width: 100%;
+  height: 50px;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    max-width: 370px;
+  }
+
+  .menu {
+    height: 225px;
+  }
+
+  .menu__item {
+    padding: 5px 5px;
+  }
+
+  .home {
+    margin-left: 0;
+  }
+
+  .text-welcome {
+    margin-top: 120px;
+    margin-right: 0;
+  }
+  .text-welcome h1, .text-welcome h2 {
+    font-size: 10pt;
+  }
+
+  .menu__items li a {
+    font-size: 9px;
+  }
+
+  .content {
+    width: 370px;
+    height: 1200px;
+  }
+  .content > h2 {
+    width: 370px;
+    font-size: 15pt;
+    margin-top: 15px;
+  }
+  .content > h3 {
+    width: 370px;
+  }
+
+  .team__description {
+    width: 350px;
+    height: 170px;
+    font-size: 8pt;
+    margin-left: 5px;
+    font-size: 10pt;
+  }
+
+  .team__items-block {
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .item__img img {
+    width: 150px;
+    height: 200px;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item__title {
+    font-size: 18px;
+  }
+
+  .item__desc {
+    font-size: 12px;
+    height: auto;
+    align-self: center;
+    width: 225px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .statistics {
+    width: 370px;
+    height: 500px;
+    flex-direction: column;
+  }
+
+  .regist-form {
+    width: 370px;
+    height: 800px;
+  }
+
+  .form-text > h2 {
+    font-size: 15pt;
+    margin: 0 0 10px;
+  }
+  .form-text > div {
+    width: 300px;
+    font-size: 10pt;
+  }
+
+  .form {
+    width: 370px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .form > input, .form > select {
+    width: 300px;
+    height: 50px;
+    font-size: 10pt;
+  }
+
+  #email {
+    width: 300px;
+  }
+
+  .form > textarea {
+    width: 300px;
+    height: 100px;
+    font-size: 10pt;
+  }
+
+  .regist-form > button {
+    width: 240px;
+    height: 70px;
+    font-size: 10pt;
+    margin: 0 0 0 0;
+  }
+
+  .about-us {
+    width: 370px;
+    height: 700px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photo {
+    width: 370px;
+    height: 200px;
+  }
+
+  .about {
+    width: 370px;
+  }
+
+  .text-about h2 {
+    font-size: 15pt;
+  }
+
+  .elements-about h3 {
+    font-size: 8pt;
+  }
+
+  .our-gallery {
+    width: 370px;
+    height: 150px;
+  }
+
+  .gallery-text h2 {
+    font-size: 15pt;
+  }
+  .gallery-text > div {
+    width: 80%;
+    font-size: 10pt;
+    margin-top: 15px;
+  }
+
+  /* animation */
+  .gallery {
+    width: 300px;
+    margin: 0 0 0 28px;
+  }
+  .gallery img {
+    width: 60px;
+    height: 100px;
+  }
+
+  .line__menu {
+    width: 370px;
+    height: auto;
+  }
+
+  .foother-menu__item a {
+    font-size: 7px;
+  }
+  .foother-menu__item p {
+    font-size: 10px;
+  }
+
+  .copyright__text {
+    width: 120px;
+    font-size: 7pt;
+    padding: 10px 0 0 0;
+  }
+
+  .line__copyright {
+    height: auto;
+  }
+
+  .copyright__social img {
+    height: 25px;
+    width: 25px;
+  }
+}
+@font-face {
+  font-family: "MyriadProRegular";
+  src: url("../fonts/MyriadProRegular.ttf");
+}
+@font-face {
+  font-family: "Athelas-Regular";
+  src: url("../fonts/Athelas-Regular.ttf");
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/Helvetica.otf");
+}
+@font-face {
+  font-family: "VaniBold";
+  src: url("../fonts/VaniBold.ttf");
+}
+@font-face {
+  font-family: "QuattrocentoSans-Regular";
+  src: url("../fonts/QuattrocentoSans-Regular.otf");
+}
