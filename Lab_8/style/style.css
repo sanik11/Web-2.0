@@ -1,0 +1,22 @@
+hr {
+    border: none;
+    background-color: #26a69a;
+    height: 2px;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.my_row {
+    outline: 2px solid #26a69a;
+    max-width: 48%;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+h4 {
+    text-align: center;
+}
