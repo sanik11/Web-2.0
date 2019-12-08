@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="heading">
+            <h2>Images</h2>
+        </div>
+
+        <div class="cl images">
+            <figure class="sign">
+                <img class="lazy" src="data:image/gif;base64,R0lGODlhCgAIAIABAN3d3f///yH5BAEAAAEALAAAAAAKAAgAAAINjAOnyJv2oJOrVXrzKQA7" data-src="img/image-jpg.jpg" alt="">
+                <figcaption>JPG</figcaption>
+            </figure>
+
+            <figure class="sign">
+                <img class="lazy" src="data:image/gif;base64,R0lGODlhCgAIAIABAN3d3f///yH5BAEAAAEALAAAAAAKAAgAAAINjAOnyJv2oJOrVXrzKQA7" data-src="img/image-png.png" alt="">
+                <figcaption>PNG</figcaption>
+            </figure>
+
+            <figure class="sign">
+                <img class="lazy" src="data:image/gif;base64,R0lGODlhCgAIAIABAN3d3f///yH5BAEAAAEALAAAAAAKAAgAAAINjAOnyJv2oJOrVXrzKQA7" data-src="img/image-gif.gif" alt="">
+                <figcaption>GIF</figcaption>
+            </figure>
+
+            <figure class="sign">
+                <img class="lazy" src="data:image/gif;base64,R0lGODlhCgAIAIABAN3d3f///yH5BAEAAAEALAAAAAAKAAgAAAINjAOnyJv2oJOrVXrzKQA7" data-src="img/image-webp.webp" alt="">
+                <figcaption>WEBP</figcaption>
+            </figure>
+            <figure class="sign">
+                <img class="lazy" src="data:image/gif;base64,R0lGODlhCgAIAIABAN3d3f///yH5BAEAAAEALAAAAAAKAAgAAAINjAOnyJv2oJOrVXrzKQA7" data-src="img/image-svg.svg" alt="">
+                <figcaption>SVG</figcaption>
+            </figure>
+        </div>
+
+        <div class="heading">
+            <h2>Picture</h2>
+        </div>
+
+        <div class="cl picture">
+            <picture>
+                <source media="(max-width: 799px)" srcset="img/image-gif.gif">
+                <img src="img/image-png.png" alt="">
+            </picture>
+        </div>
+
+        <div class="heading">
+            <h2>Video</h2>
+        </div>
+        <div class="cl video">
+            <figure class="sign">
+                <video src="video/video-mp4.mp4" controls></video>
+                <figcaption>MP4</figcaption>
+            </figure>
+            <figure class="sign">
+                <video src="video/video-webm.webm" controls></video>
+                <figcaption>WEBM</figcaption>
+            </figure>
+            <figure class="sign">
+                <video src="video/video-mov.mov" controls></video>
+                <figcaption>MOV</figcaption>
+            </figure>
+            <figure class="sign">
+                <video src="video/video-ogv.ogv" controls></video>
+                <figcaption>OGV</figcaption>
+            </figure>
+        </div>
+        <div class="heading">
+            <h2>Audio</h2>
+        </div>
+        <div class="cl audio">
+            <figure class="sign">
+                <audio src="audio/audio-mp3.mp3" controls></audio>
+                <figcaption>MP3</figcaption>
+            </figure>
+            <figure class="sign">
+                <audio src="audio/audio-aac.aac" controls></audio>
+                <figcaption>AAC</figcaption>
+            </figure>
+            <figure class="sign">
+                <audio src="audio/audio-ogg.ogg" controls></audio>
+                <figcaption>OGG</figcaption>
+            </figure>
+            <figure class="sign">
+                <audio src="audio/audio-opus.opus" controls></audio>
+                <figcaption>OPUS</figcaption>
+            </figure>
+            <figure class="sign">
+                <audio src="audio/audio-flac.flac" controls></audio>
+                <figcaption>FLAC</figcaption>
+            </figure>
+            <figure class="sign">
+                <audio src="audio/audio-wav.wav" controls></audio>
+                <figcaption>WAV</figcaption>
+            </figure>
+
+
+        </div>
+
+
+
+    </div>
+    <script src="js/lazyload.min.js"></script>
+    <script>
+        var lazyLoadInstance = new LazyLoad({
+            elements_selector: ".lazy"
+        })
+    </script>
+</body>
+
+</html>
