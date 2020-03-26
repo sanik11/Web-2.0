@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Chat</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style/materialize.min.css">
+
+</head>
+
+<body>
+    <div id="message-container"></div>
+    <form id="send-container">
+        <input type="text" id="message-input" autocomplete="off">
+        <!-- <button type="submit" id="send-button">Send</button> -->
+
+        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+            <i class="material-icons right">send</i>
+          </button>
+    </form>
+
+    <script src="http://localhost:1666/socket.io/socket.io.js"></script>
+    <script src="js/script.js"></script>
+
+    <script src="js/materialize.min.js"></script>
+</body>
+
+
+</html>

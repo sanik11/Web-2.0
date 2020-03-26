@@ -1,0 +1,46 @@
+    body {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        background-image: url('../img/milky-way-1023340_1280.png');
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+    
+    #message-container {
+        margin-top: 20px;
+        width: 80%;
+        max-width: 1200px;
+        margin-bottom: 120px;
+        border-style: solid;
+        border-color: #177e75;
+        padding: 2px 2px 2px 2px;
+    }
+    
+    #message-container div {
+        background-color: #21a89b;
+        font-size: 14pt;
+        color: white;
+        padding: 5px;
+    }
+    
+    #message-container div:nth-child(2n) {
+        color: black;
+        background-color: #FFF;
+    }
+    
+    #send-container {
+        border-style: solid;
+        border-color: #177e75;
+        padding: 2px 2px 2px 2px;
+        position: fixed;
+        bottom: 10px;
+        background-color: white;
+        max-width: 1200px;
+        width: 80%;
+    }
+    
+    #message-input {
+        flex-grow: 1;
+    }
